@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PXViewExtension_Example' do
+  pod 'PXViewExtension', :path => '../'
+
+  target 'PXViewExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
